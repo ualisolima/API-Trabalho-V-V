@@ -4,6 +4,7 @@ import java.util.List;
 
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
+import javax.persistence.Entity;
 import javax.persistence.EnumType;
 import javax.persistence.Enumerated;
 import javax.persistence.GeneratedValue;
@@ -17,6 +18,7 @@ import javax.validation.constraints.NotBlank;
 
 import com.br.ufc.vev.Enums.TipoSala;
 
+@Entity
 public class Sala {
 	
 	@Id

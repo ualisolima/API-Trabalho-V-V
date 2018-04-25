@@ -9,7 +9,7 @@ import javax.persistence.SequenceGenerator;
 import javax.validation.constraints.NotBlank;
 
 @Entity
-public class Admin  extends Pessoa {
+public class Admin{
 	
 	@Id
 	@SequenceGenerator(name = "admin_seq", sequenceName = "admin_seq")
